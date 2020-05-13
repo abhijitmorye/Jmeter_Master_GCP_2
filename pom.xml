@@ -80,6 +80,16 @@
                     <artifact>kg.apc:jmeter-plugins-casutg:2.4</artifact>
                     </jmeterExtensions>
 					<downloadExtensionDependencies>false</downloadExtensionDependencies>
+					            <excludedArtifacts>
+                                <exclusion>commons-pool2:commons-pool2</exclusion>
+                                <exclusion>commons-math3:commons-math3</exclusion>
+                                <exclusion>org.slf4j:slf4j-api</exclusion>
+                                <exclusion>org.slf4j:slf4j-ext</exclusion>
+                                <!-- <exclusion>org.slf4j:slf4j-nop</exclusion> -->
+                                <exclusion>logkit:logkit</exclusion>
+                                <exclusion>org.apache.logging.log4j:log4j</exclusion>
+                                <exclusion>org.apache.logging.log4j:log4j-slf4j-impl</exclusion>
+                            </excludedArtifacts>
 					<propertiesJMeter>
                     <remote_hosts>10.128.0.6</remote_hosts>
                     </propertiesJMeter>
