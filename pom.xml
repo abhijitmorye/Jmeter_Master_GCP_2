@@ -76,6 +76,9 @@
 					<module>${module_to_run}</module>
 					</propertiesUser>-->
 					<jmeterVersion>5.0</jmeterVersion>
+					<jmeterExtensions>
+                    <artifact>kg.apc:jmeter-plugins-casutg:2.4</artifact>
+                    </jmeterExtensions>
 					<propertiesJMeter>
                     <remote_hosts>10.128.0.6</remote_hosts>
                     </propertiesJMeter>
